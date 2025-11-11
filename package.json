@@ -1,0 +1,36 @@
+{
+  "name": "ai_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.23",
+    "@google/generative-ai": "^0.24.1",
+    "@vapi-ai/web": "^2.4.0",
+    "ai": "^5.0.76",
+    "dotenv": "^17.2.3",
+    "firebase": "^12.4.0",
+    "firebase-admin": "^13.5.0",
+    "firebase-auth": "^0.1.2",
+    "next": "15.5.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

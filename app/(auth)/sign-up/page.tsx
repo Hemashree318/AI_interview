@@ -50,7 +50,7 @@ const Page = () => {
               Username
             </label>
             <input
-              className="w-full px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
+              className="w-full text-black px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
               type="text"
               id="username"
               placeholder="Enter your username"
@@ -63,7 +63,7 @@ const Page = () => {
               Email
             </label>
             <input
-              className="w-full px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
+              className="w-full text-black px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
               type="email"
               id="email"
               placeholder="Enter your email"
@@ -76,7 +76,7 @@ const Page = () => {
               Password
             </label>
             <input
-              className="w-full px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
+              className="w-full text-black px-3 py-2 border border-cyan-300 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
               type="password"
               id="password"
               placeholder="Enter your password"
